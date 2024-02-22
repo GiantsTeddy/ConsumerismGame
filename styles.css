@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    color: white;
+}
+div {
+    position: fixed;
+    user-select: none;
+    margin: 5px;
+}
+
+#endscreen-stuff {
+    inset: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+}
+
+#inputs {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: blueviolet;
+}
+
+.end-item {
+    background: black;
+}
+
+button {
+    background: black;
+    color: white;
+    border: 1px solid white
+}
